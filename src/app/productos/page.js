@@ -23,8 +23,8 @@ async function ProductosPage() {
 
                 <nav>
                     <ul>
-                        <li class="active"><a href="#">PRODUCTOS</a></li>
-                        <li><a href="#">MARCAS ALIADAS</a></li>
+                        <li class="active"><a href="/productos">PRODUCTOS</a></li>
+                        <li><a href="/marcas">MARCAS ALIADAS</a></li>
                     </ul>
                 </nav>
                 <br />
