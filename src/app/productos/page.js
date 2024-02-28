@@ -56,11 +56,12 @@ async function ProductosPage() {
             </div>
             <div class="product-info">
               <h2>{producto.nombre_producto}</h2>
-              <p>{producto.referencia} - {producto.marca}</p>
-              <div class="price">${producto.precio}</div>
+              <p>Ref: {producto.referencia} - Marca: {producto.marca}</p>
+              <div class="price">$40.000</div>
+              <p>Observaciones: {producto.observaciones} y talla {producto.talla} </p>
             </div>
             <div class="btn">
-              <button class="buy-btn">Comprar Ahora</button>
+              <button class="buy-btn" href="">Comprar ahora</button>
               <button class="fav">
                 <svg
                   class="svg"
